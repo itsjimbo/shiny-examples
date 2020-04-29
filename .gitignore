@@ -1,0 +1,26 @@
+#R Project files
+.DS_Store
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+#Anything that starts with a number
+#[0-9]*
+# Try to ignore any data files
+**/*.csv.zip
+**/*.csv.gz
+**/*.csv
+**/*.tsv.zip
+**/*.tsv.gz
+**/*.tsv
+**/*.txt.zip
+**/*.txt.gz
+**/*.txt
+**/*.zip
+#Anything that starts with ouptut,data,results
+output*
+output**/*
+data*
+data**/*
+results*
+results**/*
